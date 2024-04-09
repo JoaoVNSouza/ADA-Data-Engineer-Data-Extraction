@@ -12,7 +12,8 @@ O objetivo principal deste projeto é extrair dados da NEWS API, utilizando a ch
 * Inserir essa API_KEY no arquivo api_key.
 
 ### Organização dos Arquivos do ELT
-A organização dos arquivos do ELT seguirá um padrão que facilite o gerenciamento e manutenção do pipeline de dados baseado na arquitetura Midellion. Isso pode incluir:
+A organização dos arquivos do ELT seguirá um padrão que facilite o gerenciamento e manutenção do pipeline de dados baseado na arquitetura Midellion <br>
+![Organização dos Arquivos do ELT](Imagens/organizacao_elt.png) <br>
 
 * Scripts de Extração (landing_zone): Contendo código para extrair dados da API e salvar localmente no formato csv.
 * Scripts de Carregamento (bronze): Responsáveis por carregar os dados extraídos em um repositório central no formato parquet.
